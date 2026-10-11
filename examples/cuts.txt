@@ -1,0 +1,5 @@
+# Fixes after reading the track table. Sets and cuts are 1-based as printed.
+# Run order: all moves first, then removes and inserts.
+move 1 1 0:01:50          # cut 1 of set 1 goes to 1:50
+remove 2 2                # drop the 2nd cut of set 2 (merges two tracks)
+insert 1 0:03:00 Extra    # split the track holding 3:00; the later half is "Extra"

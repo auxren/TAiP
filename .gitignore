@@ -1,0 +1,8 @@
+.DS_Store
+__pycache__/
+chopped/
+*.wav
+*.WAV
+*.caf
+*.flac
+.env
