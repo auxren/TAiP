@@ -22,13 +22,15 @@ claude                          # then:
 
 Claude will probe the files, research the touring lineup, plan the cuts, show you the track
 table for review, render, verify, and tell you what it is unsure about. `/chop-a-tape` runs the
-whole routine.
+whole routine. More prompts, and what to say when a cut is wrong, are in
+[`docs/using-claude-code.md`](docs/using-claude-code.md).
 
 ## What's in here
 
 | Path | What |
 |---|---|
 | `CLAUDE.md` | The standing orders Claude follows on every tape |
+| `docs/using-claude-code.md` | Setup, permissions, prompt suggestions, how to fix cuts in plain language |
 | `docs/workflow.md` | Step by step: probe → plan → review → render → verify |
 | `docs/setlists.md` | Setlist format, taper Info.txt traps, personnel research |
 | `docs/tagging.md` | Tag set, filenames, info file, md5/ffp conventions |
